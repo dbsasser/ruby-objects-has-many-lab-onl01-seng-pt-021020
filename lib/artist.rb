@@ -18,4 +18,8 @@ class Artist
     self.add_song(s)
     s
   end
+  
+  def song_count
+    self.songs.count 
+  end
 end
