@@ -1,6 +1,6 @@
 class Post 
   
-  attr_accessor :title 
+  attr_accessor :title, :author 
   
   @@all = []
   
@@ -8,4 +8,9 @@ class Post
     @title = title
     @all << self
   end
+  
+  self.all 
+    @@all
+  end
+  
 end
