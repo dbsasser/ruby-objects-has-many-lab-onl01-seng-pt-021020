@@ -9,8 +9,8 @@ class Post
     @all << self
   end
   
-  self.all 
-    @@all
-  end
+  #self.all 
+  #  @@all
+  #end
   
 end
