@@ -14,7 +14,7 @@ class Song
       return nil
     else
       @artist.name
-
+    end
   end
   
   def self.all 
