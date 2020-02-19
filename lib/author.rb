@@ -23,7 +23,7 @@ class Author
     @posts << post
     #self.add_song(song)
     post.author = self
-    @@song_count += 1
+    @@post_count_total += 1
   end
   
 end
